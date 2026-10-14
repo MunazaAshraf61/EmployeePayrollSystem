@@ -3,7 +3,6 @@
 ## About the Project
 The Employee Payroll System is a Python-based project developed to manage employee information and calculate salaries. It allows users to add employees, view their details, calculate net salary, search for employees, and generate payslips.
 
-This project was created to practice object-oriented programming concepts in Python.
 
 ## Features
 - Add new employees with their details.
@@ -25,22 +24,13 @@ This project was created to practice object-oriented programming concepts in Pyt
 - **Abstraction:** The `Employee` class uses Python's `abc` module and an abstract method for salary calculation.
 - **Exception Handling:** Used to handle invalid inputs and file-related errors.
 
-## Files Created
+## Files in the Project
 - `EmployyePayrollSystem.py` – Contains the main Python program.
 - `payroll.csv` – Stores employee information and salary details.
 - `payslip_100.txt` – An example of a generated employee payslip. Other payslips are created with filenames based on employee IDs.
+- OUTPUT_01.png,OUTPUT_02.Png,OUTPUT_03.Png,OUTPUT_04.Png – screenshot showing the program running.
+- README.md – provides information about the project.
 
-## How to Run
-1. Install Python 3 on your computer.
-2. Download or clone this repository.
-3. Open the project folder in VS Code or another Python editor.
-4. Run the Python file:
-
-   ```bash
-   python EmployyePayrollSystem.py
-   ```
-
-5. Select an option from the menu and follow the instructions.
 
 ## Salary Calculation
 Net salary is calculated using the following formula:
@@ -49,5 +39,6 @@ Net salary is calculated using the following formula:
 
 For example, if the basic salary is Rs. 30,000, the allowance is Rs. 5,000, and the deduction is Rs. 2,000, the net salary is Rs. 33,000.
 
-## Learning Outcome
-This project helped me understand how to use classes, inheritance, abstraction, file handling, and exception handling in Python while developing a basic employee payroll management system.
+
+Author: Munaza
+Project: Employee Payroll System using Python
